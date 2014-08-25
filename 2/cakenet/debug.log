@@ -1,0 +1,780 @@
+2014-08-25 03:12:46 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-08-25 03:12:46 Syscoin version v0.8.6.2-unk-beta (2014-02-18 16:44:30 -0800)
+2014-08-25 03:12:46 Using OpenSSL version OpenSSL 0.9.8y 5 Feb 2013
+2014-08-25 03:12:46 Default data directory /Users/sschepis/Library/Application Support/Syscoin
+2014-08-25 03:12:46 Using data directory /Users/sschepis/syscoin-nodefarm/2/cakenet
+2014-08-25 03:12:46 Using at most 125 connections (275 file descriptors available)
+2014-08-25 03:12:46 Using 8 threads for script verification
+2014-08-25 03:12:46 init message: Verifying wallet...
+2014-08-25 03:12:46 dbenv.open LogDir=/Users/sschepis/syscoin-nodefarm/2/cakenet/database ErrorFile=/Users/sschepis/syscoin-nodefarm/2/cakenet/db.log
+2014-08-25 03:12:46 Bound to [::]:28379
+2014-08-25 03:12:46 Bound to 0.0.0.0:28379
+2014-08-25 03:12:46 init message: Loading block index...
+2014-08-25 03:12:46 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/blocks/index
+2014-08-25 03:12:46 Opened LevelDB successfully
+2014-08-25 03:12:46 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/chainstate
+2014-08-25 03:12:46 Opened LevelDB successfully
+2014-08-25 03:12:46 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/aliases
+2014-08-25 03:12:46 Opened LevelDB successfully
+2014-08-25 03:12:46 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/offers
+2014-08-25 03:12:46 Opened LevelDB successfully
+2014-08-25 03:12:46 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/certificates
+2014-08-25 03:12:47 Opened LevelDB successfully
+2014-08-25 03:12:47 LoadBlockIndexDB(): last block file = 0
+2014-08-25 03:12:47 LoadBlockIndexDB(): transaction index disabled
+2014-08-25 03:12:47 Initializing databases...
+2014-08-25 03:12:47 a86ee2d873489d24564405287c18807f369f0c82d54dfe756f2d8c3d2af15908
+2014-08-25 03:12:47 a86ee2d873489d24564405287c18807f369f0c82d54dfe756f2d8c3d2af15908
+2014-08-25 03:12:47 45eef7a7ed92208bcb532a58c3048bc38a299f9edfd8b48b677cabf4370274c9
+2014-08-25 03:12:47 CBlock(hash=a86ee2d873489d24564405287c18807f369f0c82d54dfe756f2d8c3d2af15908, input=010000000000000000000000000000000000000000000000000000000000000000000000c9740237f4ab7c678bb4d8df9e9f298ac38b04c3582a53cb8b2092eda7f7ee457cfbc553f08f0020d6000000, PoW=0073e199880bd4b3b0afaadfb4716fac8aa62856653480a8e990a85e9450ad06, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=45eef7a7ed92208bcb532a58c3048bc38a299f9edfd8b48b677cabf4370274c9, nTime=1405483900, nBits=20008ff0, nNonce=214, vtx=1)
+2014-08-25 03:12:47   CTransaction(hash=45eef7a7ed92208bcb532a58c3048bc38a299f9edfd8b48b677cabf4370274c9, ver=1, vin.size=1, vout.size=1, nLockTime=0, data.size=43108)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 0002e7034c4e4e4153413a2048756d616e732057696c6c2050726f766520e28098576520417265204e6f7420416c6f6e6520496e2054686520556e697665727365e280992057697468696e203230205965617273)
+    CTxOut(nValue=1024.00000000, scriptPubKey=)
+  vMerkleTree: 45eef7a7ed92208bcb532a58c3048bc38a299f9edfd8b48b677cabf4370274c9 
+2014-08-25 03:12:47 Pre-allocating up to position 0x1000000 in blk00000.dat
+2014-08-25 03:12:47 SetBestChain: new best=a86ee2d873489d24564405287c18807f369f0c82d54dfe756f2d8c3d2af15908  height=0  log2_work=8.8297227  tx=1  date=2014-07-16 04:11:40 progress=0.000004
+2014-08-25 03:12:47 init message: Verifying blocks...
+2014-08-25 03:12:47  block index             161ms
+2014-08-25 03:12:47 init message: Loading wallet...
+2014-08-25 03:12:47 nFileVersion = 80602
+2014-08-25 03:12:47 Performing wallet upgrade to 60000
+2014-08-25 03:12:47 keypool added key 1, size=1
+2014-08-25 03:12:47 keypool added key 2, size=2
+2014-08-25 03:12:47 keypool added key 3, size=3
+2014-08-25 03:12:47 keypool added key 4, size=4
+2014-08-25 03:12:47 keypool added key 5, size=5
+2014-08-25 03:12:47 keypool added key 6, size=6
+2014-08-25 03:12:47 keypool added key 7, size=7
+2014-08-25 03:12:47 keypool added key 8, size=8
+2014-08-25 03:12:47 keypool added key 9, size=9
+2014-08-25 03:12:47 keypool added key 10, size=10
+2014-08-25 03:12:47 keypool added key 11, size=11
+2014-08-25 03:12:47 keypool added key 12, size=12
+2014-08-25 03:12:47 keypool added key 13, size=13
+2014-08-25 03:12:47 keypool added key 14, size=14
+2014-08-25 03:12:47 keypool added key 15, size=15
+2014-08-25 03:12:47 keypool added key 16, size=16
+2014-08-25 03:12:47 keypool added key 17, size=17
+2014-08-25 03:12:47 keypool added key 18, size=18
+2014-08-25 03:12:47 keypool added key 19, size=19
+2014-08-25 03:12:47 keypool added key 20, size=20
+2014-08-25 03:12:47 keypool added key 21, size=21
+2014-08-25 03:12:47 keypool added key 22, size=22
+2014-08-25 03:12:47 keypool added key 23, size=23
+2014-08-25 03:12:47 keypool added key 24, size=24
+2014-08-25 03:12:47 keypool added key 25, size=25
+2014-08-25 03:12:47 keypool added key 26, size=26
+2014-08-25 03:12:47 keypool added key 27, size=27
+2014-08-25 03:12:47 keypool added key 28, size=28
+2014-08-25 03:12:47 keypool added key 29, size=29
+2014-08-25 03:12:47 keypool added key 30, size=30
+2014-08-25 03:12:47 keypool added key 31, size=31
+2014-08-25 03:12:47 keypool added key 32, size=32
+2014-08-25 03:12:47 keypool added key 33, size=33
+2014-08-25 03:12:47 keypool added key 34, size=34
+2014-08-25 03:12:47 keypool added key 35, size=35
+2014-08-25 03:12:47 keypool added key 36, size=36
+2014-08-25 03:12:47 keypool added key 37, size=37
+2014-08-25 03:12:47 keypool added key 38, size=38
+2014-08-25 03:12:47 keypool added key 39, size=39
+2014-08-25 03:12:48 keypool added key 40, size=40
+2014-08-25 03:12:48 keypool added key 41, size=41
+2014-08-25 03:12:48 keypool added key 42, size=42
+2014-08-25 03:12:48 keypool added key 43, size=43
+2014-08-25 03:12:48 keypool added key 44, size=44
+2014-08-25 03:12:48 keypool added key 45, size=45
+2014-08-25 03:12:48 keypool added key 46, size=46
+2014-08-25 03:12:48 keypool added key 47, size=47
+2014-08-25 03:12:48 keypool added key 48, size=48
+2014-08-25 03:12:48 keypool added key 49, size=49
+2014-08-25 03:12:48 keypool added key 50, size=50
+2014-08-25 03:12:48 keypool added key 51, size=51
+2014-08-25 03:12:48 keypool added key 52, size=52
+2014-08-25 03:12:48 keypool added key 53, size=53
+2014-08-25 03:12:48 keypool added key 54, size=54
+2014-08-25 03:12:48 keypool added key 55, size=55
+2014-08-25 03:12:48 keypool added key 56, size=56
+2014-08-25 03:12:48 keypool added key 57, size=57
+2014-08-25 03:12:48 keypool added key 58, size=58
+2014-08-25 03:12:48 keypool added key 59, size=59
+2014-08-25 03:12:48 keypool added key 60, size=60
+2014-08-25 03:12:48 keypool added key 61, size=61
+2014-08-25 03:12:48 keypool added key 62, size=62
+2014-08-25 03:12:48 keypool added key 63, size=63
+2014-08-25 03:12:48 keypool added key 64, size=64
+2014-08-25 03:12:48 keypool added key 65, size=65
+2014-08-25 03:12:48 keypool added key 66, size=66
+2014-08-25 03:12:48 keypool added key 67, size=67
+2014-08-25 03:12:48 keypool added key 68, size=68
+2014-08-25 03:12:48 keypool added key 69, size=69
+2014-08-25 03:12:48 keypool added key 70, size=70
+2014-08-25 03:12:48 keypool added key 71, size=71
+2014-08-25 03:12:48 keypool added key 72, size=72
+2014-08-25 03:12:48 keypool added key 73, size=73
+2014-08-25 03:12:48 keypool added key 74, size=74
+2014-08-25 03:12:48 keypool added key 75, size=75
+2014-08-25 03:12:48 keypool added key 76, size=76
+2014-08-25 03:12:48 keypool added key 77, size=77
+2014-08-25 03:12:48 keypool added key 78, size=78
+2014-08-25 03:12:48 keypool added key 79, size=79
+2014-08-25 03:12:48 keypool added key 80, size=80
+2014-08-25 03:12:48 keypool added key 81, size=81
+2014-08-25 03:12:48 keypool added key 82, size=82
+2014-08-25 03:12:48 keypool added key 83, size=83
+2014-08-25 03:12:48 keypool added key 84, size=84
+2014-08-25 03:12:49 keypool added key 85, size=85
+2014-08-25 03:12:49 keypool added key 86, size=86
+2014-08-25 03:12:49 keypool added key 87, size=87
+2014-08-25 03:12:49 keypool added key 88, size=88
+2014-08-25 03:12:49 keypool added key 89, size=89
+2014-08-25 03:12:49 keypool added key 90, size=90
+2014-08-25 03:12:49 keypool added key 91, size=91
+2014-08-25 03:12:49 keypool added key 92, size=92
+2014-08-25 03:12:49 keypool added key 93, size=93
+2014-08-25 03:12:49 keypool added key 94, size=94
+2014-08-25 03:12:49 keypool added key 95, size=95
+2014-08-25 03:12:49 keypool added key 96, size=96
+2014-08-25 03:12:49 keypool added key 97, size=97
+2014-08-25 03:12:49 keypool added key 98, size=98
+2014-08-25 03:12:49 keypool added key 99, size=99
+2014-08-25 03:12:49 keypool added key 100, size=100
+2014-08-25 03:12:49 keypool added key 101, size=101
+2014-08-25 03:12:49 keypool reserve 1
+2014-08-25 03:12:49 keypool keep 1
+2014-08-25 03:12:49  wallet                 2386ms
+2014-08-25 03:12:49 init message: Loading addresses...
+2014-08-25 03:12:49 ERROR: CAddrman::Read() : open failed
+2014-08-25 03:12:49 Invalid or missing peers.dat; recreating
+2014-08-25 03:12:49 Loaded 0 addresses from peers.dat  0ms
+2014-08-25 03:12:49 mapBlockIndex.size() = 1
+2014-08-25 03:12:49 nBestHeight = 0
+2014-08-25 03:12:49 setKeyPool.size() = 100
+2014-08-25 03:12:49 mapWallet.size() = 0
+2014-08-25 03:12:49 mapAddressBook.size() = 1
+2014-08-25 03:12:49 dnsseed thread start
+2014-08-25 03:12:49 upnp thread start
+2014-08-25 03:12:49 net thread start
+2014-08-25 03:12:49 addcon thread start
+2014-08-25 03:12:49 opencon thread start
+2014-08-25 03:12:49 Loading addresses from DNS seeds (could take a while)
+2014-08-25 03:12:49 msghand thread start
+2014-08-25 03:12:49 dumpaddr thread start
+2014-08-25 03:12:49 init message: Done loading
+2014-08-25 03:12:49 Added 1 addresses from 70.176.244.123: 0 tried, 1 new
+2014-08-25 03:12:49 Added 1 addresses from 54.198.232.29: 0 tried, 2 new
+2014-08-25 03:12:49 Added 1 addresses from 92.242.140.2: 0 tried, 3 new
+2014-08-25 03:12:49 Added 1 addresses from 107.170.15.21: 0 tried, 4 new
+2014-08-25 03:12:49 Added 1 addresses from 178.62.10.46: 0 tried, 5 new
+2014-08-25 03:12:50 GetMyExternalIP() received [70.176.244.123] 70.176.244.123:0
+2014-08-25 03:12:50 GetMyExternalIP() returned 70.176.244.123
+2014-08-25 03:12:50 AddLocal(70.176.244.123:28379,4)
+2014-08-25 03:12:50 Added 4 addresses from 66.248.204.251: 0 tried, 9 new
+2014-08-25 03:12:50 Added 1 addresses from 66.248.204.23: 0 tried, 10 new
+2014-08-25 03:12:50 Added 1 addresses from 199.48.164.89: 0 tried, 11 new
+2014-08-25 03:12:50 Added 1 addresses from 37.59.0.211: 0 tried, 12 new
+2014-08-25 03:12:50 Added 1 addresses from 37.187.78.114: 0 tried, 13 new
+2014-08-25 03:12:50 14 addresses found from DNS seeds
+2014-08-25 03:12:50 dnsseed thread exit
+2014-08-25 03:12:51 UPnP: ExternalIPAddress = 70.176.244.123
+2014-08-25 03:12:51 AddLocal(70.176.244.123:28379,3)
+2014-08-25 03:12:51 UPnP Port Mapping successful.
+2014-08-25 03:13:00 ThreadRPCServer method=addnode
+2014-08-25 03:13:23 ThreadRPCServer method=getinfo
+2014-08-25 03:13:23 keypool added key 102, size=101
+2014-08-25 03:13:23 keypool reserve 2
+2014-08-25 03:13:23 keypool return 2
+2014-08-25 03:13:26 Flushing wallet.dat
+2014-08-25 03:13:26 Flushed wallet.dat 11ms
+2014-08-25 03:13:42 ThreadRPCServer method=addnode
+2014-08-25 03:14:12 ThreadRPCServer method=getinfo
+2014-08-25 03:14:12 keypool reserve 2
+2014-08-25 03:14:12 keypool return 2
+2014-08-25 03:14:30 ThreadRPCServer method=stop
+2014-08-25 03:14:30 dumpaddr thread stop
+2014-08-25 03:14:30 net thread interrupt
+2014-08-25 03:14:30 Shutdown : In progress...
+2014-08-25 03:14:30 msghand thread interrupt
+2014-08-25 03:14:30 addcon thread interrupt
+2014-08-25 03:14:30 Flush(false)
+2014-08-25 03:14:30 wallet.dat refcount=0
+2014-08-25 03:14:30 wallet.dat checkpoint
+2014-08-25 03:14:30 wallet.dat detach
+2014-08-25 03:14:30 wallet.dat closed
+2014-08-25 03:14:30 DBFlush(false) ended              20ms
+2014-08-25 03:14:30 StopNode()
+2014-08-25 03:14:30 UPNP_DeletePortMapping() returned : 0
+2014-08-25 03:14:30 upnp thread interrupt
+2014-08-25 03:14:30 Flushed 13 addresses to peers.dat  7ms
+2014-08-25 03:14:30 Committing 0 changed transactions to coin database...
+2014-08-25 03:14:30 Flush(true)
+2014-08-25 03:14:30 wallet.dat refcount=0
+2014-08-25 03:14:30 wallet.dat checkpoint
+2014-08-25 03:14:30 wallet.dat detach
+2014-08-25 03:14:30 wallet.dat closed
+2014-08-25 03:14:30 DBFlush(true) ended              18ms
+2014-08-25 03:14:30 Shutdown : done
+2014-08-25 03:15:49 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-08-25 03:15:49 Syscoin version v0.8.6.2-unk-beta (2014-02-18 16:44:30 -0800)
+2014-08-25 03:15:49 Using OpenSSL version OpenSSL 0.9.8y 5 Feb 2013
+2014-08-25 03:15:49 Default data directory /Users/sschepis/Library/Application Support/Syscoin
+2014-08-25 03:15:49 Using data directory /Users/sschepis/syscoin-nodefarm/2/cakenet
+2014-08-25 03:15:49 Using at most 125 connections (275 file descriptors available)
+2014-08-25 03:15:49 Using 8 threads for script verification
+2014-08-25 03:15:49 init message: Verifying wallet...
+2014-08-25 03:15:49 dbenv.open LogDir=/Users/sschepis/syscoin-nodefarm/2/cakenet/database ErrorFile=/Users/sschepis/syscoin-nodefarm/2/cakenet/db.log
+2014-08-25 03:15:49 Bound to [::]:28379
+2014-08-25 03:15:49 Bound to 0.0.0.0:28379
+2014-08-25 03:15:49 init message: Loading block index...
+2014-08-25 03:15:49 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/blocks/index
+2014-08-25 03:15:49 Opened LevelDB successfully
+2014-08-25 03:15:49 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/chainstate
+2014-08-25 03:15:49 Opened LevelDB successfully
+2014-08-25 03:15:49 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/aliases
+2014-08-25 03:15:49 Opened LevelDB successfully
+2014-08-25 03:15:49 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/offers
+2014-08-25 03:15:49 Opened LevelDB successfully
+2014-08-25 03:15:49 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/certificates
+2014-08-25 03:15:49 Opened LevelDB successfully
+2014-08-25 03:15:49 LoadBlockIndexDB(): last block file = 0
+2014-08-25 03:15:49 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=1, size=43344, heights=0...0, time=2014-07-16...2014-07-16)
+2014-08-25 03:15:49 LoadBlockIndexDB(): transaction index enabled
+2014-08-25 03:15:49 LoadBlockIndexDB(): hashBestChain=a86ee2d873489d24564405287c18807f369f0c82d54dfe756f2d8c3d2af15908  height=0 date=2014-07-16 04:11:40
+2014-08-25 03:15:49 init message: Verifying blocks...
+2014-08-25 03:15:49  block index              93ms
+2014-08-25 03:15:49 init message: Loading wallet...
+2014-08-25 03:15:49 nFileVersion = 80602
+2014-08-25 03:15:49  wallet                  284ms
+2014-08-25 03:15:49 init message: Loading addresses...
+2014-08-25 03:15:49 Loaded 13 addresses from peers.dat  0ms
+2014-08-25 03:15:49 mapBlockIndex.size() = 1
+2014-08-25 03:15:49 nBestHeight = 0
+2014-08-25 03:15:49 setKeyPool.size() = 101
+2014-08-25 03:15:49 mapWallet.size() = 0
+2014-08-25 03:15:49 mapAddressBook.size() = 1
+2014-08-25 03:15:49 upnp thread start
+2014-08-25 03:15:49 dnsseed thread start
+2014-08-25 03:15:49 net thread start
+2014-08-25 03:15:49 addcon thread start
+2014-08-25 03:15:49 opencon thread start
+2014-08-25 03:15:49 msghand thread start
+2014-08-25 03:15:49 Loading addresses from DNS seeds (could take a while)
+2014-08-25 03:15:49 dumpaddr thread start
+2014-08-25 03:15:49 init message: Done loading
+2014-08-25 03:15:49 accepted connection 127.0.0.1:56013
+2014-08-25 03:15:49 received: version (102 bytes)
+2014-08-25 03:15:49 sending: version (102 bytes)
+2014-08-25 03:15:49 Added time data, samples 2, offset +0 (+0 minutes)
+2014-08-25 03:15:49 sending: verack (0 bytes)
+2014-08-25 03:15:49 receive version message: /Satoshi:0.8.6.2/: version 70004, blocks=0, us=0.0.0.0:0, them=0.0.0.0:0, peer=127.0.0.1:56013
+2014-08-25 03:15:49 14 addresses found from DNS seeds
+2014-08-25 03:15:49 dnsseed thread exit
+2014-08-25 03:15:49 received: verack (0 bytes)
+2014-08-25 03:15:49 sending: getblocks (101 bytes)
+2014-08-25 03:15:49 received: getaddr (0 bytes)
+2014-08-25 03:15:49 sending: addr (61 bytes)
+2014-08-25 03:15:49 received: getblocks (101 bytes)
+2014-08-25 03:15:49 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2014-08-25 03:15:50 GetMyExternalIP() received [70.176.244.123] 70.176.244.123:0
+2014-08-25 03:15:50 GetMyExternalIP() returned 70.176.244.123
+2014-08-25 03:15:50 AddLocal(70.176.244.123:28379,4)
+2014-08-25 03:15:50 sending: addr (31 bytes)
+2014-08-25 03:15:51 received: addr (31 bytes)
+2014-08-25 03:15:51 UPnP: ExternalIPAddress = 70.176.244.123
+2014-08-25 03:15:51 AddLocal(70.176.244.123:28379,3)
+2014-08-25 03:15:51 UPnP Port Mapping successful.
+2014-08-25 03:15:52 ThreadRPCServer method=getinfo
+2014-08-25 03:15:52 keypool reserve 2
+2014-08-25 03:15:52 keypool return 2
+2014-08-25 03:16:01 received: inv (37 bytes)
+2014-08-25 03:16:01   got inventory: block d8b05aca0c6081f788eb2644df1a40037d0b6f65dce8551d7e16019d4ffec1eb  new
+2014-08-25 03:16:01 askfor block d8b05aca0c6081f788eb2644df1a40037d0b6f65dce8551d7e16019d4ffec1eb   0 (00:00:00)
+2014-08-25 03:16:01 sending getdata: block d8b05aca0c6081f788eb2644df1a40037d0b6f65dce8551d7e16019d4ffec1eb
+2014-08-25 03:16:01 sending: getdata (37 bytes)
+2014-08-25 03:16:01 received: block (187 bytes)
+2014-08-25 03:16:01 received block d8b05aca0c6081f788eb2644df1a40037d0b6f65dce8551d7e16019d4ffec1eb
+2014-08-25 03:16:01 GetBlockvalue of Block 1: subsidy=36422285800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=36422285800000000. 
+2014-08-25 03:16:01 Pre-allocating up to position 0x100000 in rev00000.dat
+2014-08-25 03:16:01 Committing 1 changed transactions to coin database...
+2014-08-25 03:16:01 SetBestChain: new best=d8b05aca0c6081f788eb2644df1a40037d0b6f65dce8551d7e16019d4ffec1eb  height=1  log2_work=11.289443  tx=2  date=2014-08-25 03:16:01 progress=1.000000
+2014-08-25 03:16:01 received: inv (37 bytes)
+2014-08-25 03:16:01   got inventory: block c14314d3d2c649a042129910cce2267f4a015e9f5c2af45fc0e8cb4109d17d13  new
+2014-08-25 03:16:01 askfor block c14314d3d2c649a042129910cce2267f4a015e9f5c2af45fc0e8cb4109d17d13   0 (00:00:00)
+2014-08-25 03:16:01 sending getdata: block c14314d3d2c649a042129910cce2267f4a015e9f5c2af45fc0e8cb4109d17d13
+2014-08-25 03:16:01 sending: getdata (37 bytes)
+2014-08-25 03:16:02 received: block (187 bytes)
+2014-08-25 03:16:02 received block c14314d3d2c649a042129910cce2267f4a015e9f5c2af45fc0e8cb4109d17d13
+2014-08-25 03:16:02 GetBlockvalue of Block 2: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:16:02 Committing 1 changed transactions to coin database...
+2014-08-25 03:16:02 SetBestChain: new best=c14314d3d2c649a042129910cce2267f4a015e9f5c2af45fc0e8cb4109d17d13  height=2  log2_work=12.151968  tx=3  date=2014-08-25 03:16:02 progress=1.000000
+2014-08-25 03:16:02 received: inv (37 bytes)
+2014-08-25 03:16:02   got inventory: block 2f9f17c1c88de94fa82f419d21054084ca400192d8f5bfea6c05be520205bb64  new
+2014-08-25 03:16:02 askfor block 2f9f17c1c88de94fa82f419d21054084ca400192d8f5bfea6c05be520205bb64   0 (00:00:00)
+2014-08-25 03:16:02 sending getdata: block 2f9f17c1c88de94fa82f419d21054084ca400192d8f5bfea6c05be520205bb64
+2014-08-25 03:16:02 sending: getdata (37 bytes)
+2014-08-25 03:16:02 received: block (187 bytes)
+2014-08-25 03:16:02 received block 2f9f17c1c88de94fa82f419d21054084ca400192d8f5bfea6c05be520205bb64
+2014-08-25 03:16:02 GetBlockvalue of Block 3: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:16:02 Committing 1 changed transactions to coin database...
+2014-08-25 03:16:02 SetBestChain: new best=2f9f17c1c88de94fa82f419d21054084ca400192d8f5bfea6c05be520205bb64  height=3  log2_work=12.688032  tx=4  date=2014-08-25 03:16:02 progress=1.000000
+2014-08-25 03:16:02 received: inv (37 bytes)
+2014-08-25 03:16:02   got inventory: block be34668eae5559c986f8c1300e1bfcb38aa2a3e0149deb4196292674449b26ce  new
+2014-08-25 03:16:02 askfor block be34668eae5559c986f8c1300e1bfcb38aa2a3e0149deb4196292674449b26ce   0 (00:00:00)
+2014-08-25 03:16:02 sending getdata: block be34668eae5559c986f8c1300e1bfcb38aa2a3e0149deb4196292674449b26ce
+2014-08-25 03:16:02 sending: getdata (37 bytes)
+2014-08-25 03:16:02 received: block (187 bytes)
+2014-08-25 03:16:02 received block be34668eae5559c986f8c1300e1bfcb38aa2a3e0149deb4196292674449b26ce
+2014-08-25 03:16:02 GetBlockvalue of Block 4: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:16:02 Committing 1 changed transactions to coin database...
+2014-08-25 03:16:02 SetBestChain: new best=be34668eae5559c986f8c1300e1bfcb38aa2a3e0149deb4196292674449b26ce  height=4  log2_work=13.077984  tx=5  date=2014-08-25 03:16:03 progress=1.000827
+2014-08-25 03:16:03 received: inv (37 bytes)
+2014-08-25 03:16:03   got inventory: block 858eeca572c818a7f0688327d97955d36e50b3f28f1cf11a51f7a91781244779  new
+2014-08-25 03:16:03 askfor block 858eeca572c818a7f0688327d97955d36e50b3f28f1cf11a51f7a91781244779   0 (00:00:00)
+2014-08-25 03:16:03 sending getdata: block 858eeca572c818a7f0688327d97955d36e50b3f28f1cf11a51f7a91781244779
+2014-08-25 03:16:03 sending: getdata (37 bytes)
+2014-08-25 03:16:03 received: block (187 bytes)
+2014-08-25 03:16:03 received block 858eeca572c818a7f0688327d97955d36e50b3f28f1cf11a51f7a91781244779
+2014-08-25 03:16:03 GetBlockvalue of Block 5: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:16:03 Committing 1 changed transactions to coin database...
+2014-08-25 03:16:03 SetBestChain: new best=858eeca572c818a7f0688327d97955d36e50b3f28f1cf11a51f7a91781244779  height=5  log2_work=13.384649  tx=6  date=2014-08-25 03:16:03 progress=1.000000
+2014-08-25 03:16:03 received: inv (37 bytes)
+2014-08-25 03:16:03   got inventory: block 3f4d506f59cef571a362560b5c331147057ea77e20929cb8a926862cfd7f6fb1  new
+2014-08-25 03:16:03 askfor block 3f4d506f59cef571a362560b5c331147057ea77e20929cb8a926862cfd7f6fb1   0 (00:00:00)
+2014-08-25 03:16:03 sending getdata: block 3f4d506f59cef571a362560b5c331147057ea77e20929cb8a926862cfd7f6fb1
+2014-08-25 03:16:03 sending: getdata (37 bytes)
+2014-08-25 03:16:03 received: block (187 bytes)
+2014-08-25 03:16:03 received block 3f4d506f59cef571a362560b5c331147057ea77e20929cb8a926862cfd7f6fb1
+2014-08-25 03:16:03 GetBlockvalue of Block 6: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:16:03 Committing 1 changed transactions to coin database...
+2014-08-25 03:16:03 SetBestChain: new best=3f4d506f59cef571a362560b5c331147057ea77e20929cb8a926862cfd7f6fb1  height=6  log2_work=13.637417  tx=7  date=2014-08-25 03:16:03 progress=1.000000
+2014-08-25 03:16:04 received: inv (37 bytes)
+2014-08-25 03:16:04   got inventory: block 8064c3675c324d14b723c14cd54c3f128aefcfe737c328c628a5d8dc91df5641  new
+2014-08-25 03:16:04 askfor block 8064c3675c324d14b723c14cd54c3f128aefcfe737c328c628a5d8dc91df5641   0 (00:00:00)
+2014-08-25 03:16:04 sending getdata: block 8064c3675c324d14b723c14cd54c3f128aefcfe737c328c628a5d8dc91df5641
+2014-08-25 03:16:04 sending: getdata (37 bytes)
+2014-08-25 03:16:04 received: block (187 bytes)
+2014-08-25 03:16:04 received block 8064c3675c324d14b723c14cd54c3f128aefcfe737c328c628a5d8dc91df5641
+2014-08-25 03:16:04 GetBlockvalue of Block 7: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:16:04 Committing 1 changed transactions to coin database...
+2014-08-25 03:16:04 SetBestChain: new best=8064c3675c324d14b723c14cd54c3f128aefcfe737c328c628a5d8dc91df5641  height=7  log2_work=13.852432  tx=8  date=2014-08-25 03:16:04 progress=1.000000
+2014-08-25 03:16:42 ResendWalletTransactions()
+2014-08-25 03:17:44 received: inv (37 bytes)
+2014-08-25 03:17:44   got inventory: block 7176cf58103f1d8a20429fc7f173c8aa9c7b2d4e11ba26cffb844676046c9c4e  new
+2014-08-25 03:17:44 askfor block 7176cf58103f1d8a20429fc7f173c8aa9c7b2d4e11ba26cffb844676046c9c4e   0 (00:00:00)
+2014-08-25 03:17:44 sending getdata: block 7176cf58103f1d8a20429fc7f173c8aa9c7b2d4e11ba26cffb844676046c9c4e
+2014-08-25 03:17:44 sending: getdata (37 bytes)
+2014-08-25 03:17:44 received: block (187 bytes)
+2014-08-25 03:17:44 received block 7176cf58103f1d8a20429fc7f173c8aa9c7b2d4e11ba26cffb844676046c9c4e
+2014-08-25 03:17:44 GetBlockvalue of Block 8: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:17:44 Committing 1 changed transactions to coin database...
+2014-08-25 03:17:44 SetBestChain: new best=7176cf58103f1d8a20429fc7f173c8aa9c7b2d4e11ba26cffb844676046c9c4e  height=8  log2_work=18.201851  tx=9  date=2014-08-25 03:17:43 progress=0.999577
+2014-08-25 03:17:44 received: inv (37 bytes)
+2014-08-25 03:17:44   got inventory: block 8aacbed470766d1394d274e4d063995ff6a90a272e36a4e33ba3aeba1c2a0325  new
+2014-08-25 03:17:44 askfor block 8aacbed470766d1394d274e4d063995ff6a90a272e36a4e33ba3aeba1c2a0325   0 (00:00:00)
+2014-08-25 03:17:44 sending getdata: block 8aacbed470766d1394d274e4d063995ff6a90a272e36a4e33ba3aeba1c2a0325
+2014-08-25 03:17:44 sending: getdata (37 bytes)
+2014-08-25 03:17:44 received: block (187 bytes)
+2014-08-25 03:17:44 received block 8aacbed470766d1394d274e4d063995ff6a90a272e36a4e33ba3aeba1c2a0325
+2014-08-25 03:17:44 GetBlockvalue of Block 9: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:17:44 Committing 1 changed transactions to coin database...
+2014-08-25 03:17:44 SetBestChain: new best=8aacbed470766d1394d274e4d063995ff6a90a272e36a4e33ba3aeba1c2a0325  height=9  log2_work=18.253561  tx=10  date=2014-08-25 03:17:44 progress=1.000000
+2014-08-25 03:17:45 received: inv (37 bytes)
+2014-08-25 03:17:45   got inventory: block e7d1386dd3deebeb402038812197a1035d9815985eb384f3f9e7fefa3275f01c  new
+2014-08-25 03:17:45 askfor block e7d1386dd3deebeb402038812197a1035d9815985eb384f3f9e7fefa3275f01c   0 (00:00:00)
+2014-08-25 03:17:45 sending getdata: block e7d1386dd3deebeb402038812197a1035d9815985eb384f3f9e7fefa3275f01c
+2014-08-25 03:17:45 sending: getdata (37 bytes)
+2014-08-25 03:17:45 received: block (187 bytes)
+2014-08-25 03:17:45 received block e7d1386dd3deebeb402038812197a1035d9815985eb384f3f9e7fefa3275f01c
+2014-08-25 03:17:45 GetBlockvalue of Block 10: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:17:45 Committing 1 changed transactions to coin database...
+2014-08-25 03:17:45 SetBestChain: new best=e7d1386dd3deebeb402038812197a1035d9815985eb384f3f9e7fefa3275f01c  height=10  log2_work=18.314278  tx=11  date=2014-08-25 03:17:45 progress=1.000000
+2014-08-25 03:17:46 received: inv (37 bytes)
+2014-08-25 03:17:46   got inventory: block 095870ea07bcda525b4a4fef140c7470047cd8d9807fb227670cb13b6eb6596e  new
+2014-08-25 03:17:46 askfor block 095870ea07bcda525b4a4fef140c7470047cd8d9807fb227670cb13b6eb6596e   0 (00:00:00)
+2014-08-25 03:17:46 sending getdata: block 095870ea07bcda525b4a4fef140c7470047cd8d9807fb227670cb13b6eb6596e
+2014-08-25 03:17:46 sending: getdata (37 bytes)
+2014-08-25 03:17:46 received: block (187 bytes)
+2014-08-25 03:17:46 received block 095870ea07bcda525b4a4fef140c7470047cd8d9807fb227670cb13b6eb6596e
+2014-08-25 03:17:46 GetBlockvalue of Block 11: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:17:46 Committing 1 changed transactions to coin database...
+2014-08-25 03:17:46 SetBestChain: new best=095870ea07bcda525b4a4fef140c7470047cd8d9807fb227670cb13b6eb6596e  height=11  log2_work=18.383768  tx=12  date=2014-08-25 03:17:46 progress=1.000000
+2014-08-25 03:17:53 received: inv (37 bytes)
+2014-08-25 03:17:53   got inventory: block 88a2126663d8c83691506b87ebb13942554533fa21068edbf09954281c735927  new
+2014-08-25 03:17:53 askfor block 88a2126663d8c83691506b87ebb13942554533fa21068edbf09954281c735927   0 (00:00:00)
+2014-08-25 03:17:53 sending getdata: block 88a2126663d8c83691506b87ebb13942554533fa21068edbf09954281c735927
+2014-08-25 03:17:53 sending: getdata (37 bytes)
+2014-08-25 03:17:53 received: block (187 bytes)
+2014-08-25 03:17:53 received block 88a2126663d8c83691506b87ebb13942554533fa21068edbf09954281c735927
+2014-08-25 03:17:53 GetBlockvalue of Block 12: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:17:53 Committing 1 changed transactions to coin database...
+2014-08-25 03:17:53 SetBestChain: new best=88a2126663d8c83691506b87ebb13942554533fa21068edbf09954281c735927  height=12  log2_work=18.461555  tx=13  date=2014-08-25 03:17:52 progress=0.999715
+2014-08-25 03:18:00 received: inv (37 bytes)
+2014-08-25 03:18:00   got inventory: block 605e7bdc1c4884d177b51a86b840779464485485ca000e5e31b7eb42ce1c37ec  new
+2014-08-25 03:18:00 askfor block 605e7bdc1c4884d177b51a86b840779464485485ca000e5e31b7eb42ce1c37ec   0 (00:00:00)
+2014-08-25 03:18:00 sending getdata: block 605e7bdc1c4884d177b51a86b840779464485485ca000e5e31b7eb42ce1c37ec
+2014-08-25 03:18:00 sending: getdata (37 bytes)
+2014-08-25 03:18:00 received: block (187 bytes)
+2014-08-25 03:18:00 received block 605e7bdc1c4884d177b51a86b840779464485485ca000e5e31b7eb42ce1c37ec
+2014-08-25 03:18:00 GetBlockvalue of Block 13: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:18:00 Committing 1 changed transactions to coin database...
+2014-08-25 03:18:00 SetBestChain: new best=605e7bdc1c4884d177b51a86b840779464485485ca000e5e31b7eb42ce1c37ec  height=13  log2_work=18.543236  tx=14  date=2014-08-25 03:17:59 progress=0.999737
+2014-08-25 03:18:01 received: inv (37 bytes)
+2014-08-25 03:18:01   got inventory: block ca9f0419bfe3df61a4cfafbd60b233d89463874ca4d40eb6c7b1032e74335991  new
+2014-08-25 03:18:01 askfor block ca9f0419bfe3df61a4cfafbd60b233d89463874ca4d40eb6c7b1032e74335991   0 (00:00:00)
+2014-08-25 03:18:01 sending getdata: block ca9f0419bfe3df61a4cfafbd60b233d89463874ca4d40eb6c7b1032e74335991
+2014-08-25 03:18:01 sending: getdata (37 bytes)
+2014-08-25 03:18:01 received: block (187 bytes)
+2014-08-25 03:18:01 received block ca9f0419bfe3df61a4cfafbd60b233d89463874ca4d40eb6c7b1032e74335991
+2014-08-25 03:18:01 GetBlockvalue of Block 14: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:18:01 Committing 1 changed transactions to coin database...
+2014-08-25 03:18:01 SetBestChain: new best=ca9f0419bfe3df61a4cfafbd60b233d89463874ca4d40eb6c7b1032e74335991  height=14  log2_work=18.627295  tx=15  date=2014-08-25 03:18:01 progress=1.000000
+2014-08-25 03:18:10 received: inv (37 bytes)
+2014-08-25 03:18:10   got inventory: block 4d3e55620a8031759ceae1fc1014558e3a6086043ead4c9dea9e63a19098a5d2  new
+2014-08-25 03:18:10 askfor block 4d3e55620a8031759ceae1fc1014558e3a6086043ead4c9dea9e63a19098a5d2   0 (00:00:00)
+2014-08-25 03:18:10 sending getdata: block 4d3e55620a8031759ceae1fc1014558e3a6086043ead4c9dea9e63a19098a5d2
+2014-08-25 03:18:10 sending: getdata (37 bytes)
+2014-08-25 03:18:10 received: block (187 bytes)
+2014-08-25 03:18:10 received block 4d3e55620a8031759ceae1fc1014558e3a6086043ead4c9dea9e63a19098a5d2
+2014-08-25 03:18:10 GetBlockvalue of Block 15: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:18:10 Committing 1 changed transactions to coin database...
+2014-08-25 03:18:10 SetBestChain: new best=4d3e55620a8031759ceae1fc1014558e3a6086043ead4c9dea9e63a19098a5d2  height=15  log2_work=18.716531  tx=16  date=2014-08-25 03:18:10 progress=1.000000
+2014-08-25 03:18:10 received: inv (37 bytes)
+2014-08-25 03:18:10   got inventory: block 099d1b66c9f7642e5d82d5e4aa12696eee781d53c6c656775710288731f2b971  new
+2014-08-25 03:18:10 askfor block 099d1b66c9f7642e5d82d5e4aa12696eee781d53c6c656775710288731f2b971   0 (00:00:00)
+2014-08-25 03:18:10 sending getdata: block 099d1b66c9f7642e5d82d5e4aa12696eee781d53c6c656775710288731f2b971
+2014-08-25 03:18:10 sending: getdata (37 bytes)
+2014-08-25 03:18:10 received: block (187 bytes)
+2014-08-25 03:18:10 received block 099d1b66c9f7642e5d82d5e4aa12696eee781d53c6c656775710288731f2b971
+2014-08-25 03:18:10 GetBlockvalue of Block 16: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:18:10 Committing 1 changed transactions to coin database...
+2014-08-25 03:18:10 SetBestChain: new best=099d1b66c9f7642e5d82d5e4aa12696eee781d53c6c656775710288731f2b971  height=16  log2_work=18.805221  tx=17  date=2014-08-25 03:18:10 progress=1.000000
+2014-08-25 03:18:11 received: inv (37 bytes)
+2014-08-25 03:18:11   got inventory: block ff6b72a42fbbee8b77961a30b317c336957cf60fede3d4faca5420a9b7f7fc7b  new
+2014-08-25 03:18:11 askfor block ff6b72a42fbbee8b77961a30b317c336957cf60fede3d4faca5420a9b7f7fc7b   0 (00:00:00)
+2014-08-25 03:18:11 sending getdata: block ff6b72a42fbbee8b77961a30b317c336957cf60fede3d4faca5420a9b7f7fc7b
+2014-08-25 03:18:11 sending: getdata (37 bytes)
+2014-08-25 03:18:11 received: block (188 bytes)
+2014-08-25 03:18:11 received block ff6b72a42fbbee8b77961a30b317c336957cf60fede3d4faca5420a9b7f7fc7b
+2014-08-25 03:18:11 GetBlockvalue of Block 17: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:18:11 Committing 1 changed transactions to coin database...
+2014-08-25 03:18:11 SetBestChain: new best=ff6b72a42fbbee8b77961a30b317c336957cf60fede3d4faca5420a9b7f7fc7b  height=17  log2_work=18.899047  tx=18  date=2014-08-25 03:18:11 progress=1.000000
+2014-08-25 03:18:54 received: inv (37 bytes)
+2014-08-25 03:18:54   got inventory: block 147a2b61a38f0be0ea7d5bb5f1ed5b7fad50041eec13247a55067b85c97daf14  new
+2014-08-25 03:18:54 askfor block 147a2b61a38f0be0ea7d5bb5f1ed5b7fad50041eec13247a55067b85c97daf14   0 (00:00:00)
+2014-08-25 03:18:54 sending getdata: block 147a2b61a38f0be0ea7d5bb5f1ed5b7fad50041eec13247a55067b85c97daf14
+2014-08-25 03:18:54 sending: getdata (37 bytes)
+2014-08-25 03:18:55 received: block (188 bytes)
+2014-08-25 03:18:55 received block 147a2b61a38f0be0ea7d5bb5f1ed5b7fad50041eec13247a55067b85c97daf14
+2014-08-25 03:18:55 GetBlockvalue of Block 18: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:18:55 Committing 1 changed transactions to coin database...
+2014-08-25 03:18:55 SetBestChain: new best=147a2b61a38f0be0ea7d5bb5f1ed5b7fad50041eec13247a55067b85c97daf14  height=18  log2_work=19.831126  tx=19  date=2014-08-25 03:18:54 progress=0.999809
+2014-08-25 03:19:07 received: inv (37 bytes)
+2014-08-25 03:19:07   got inventory: block 824b1ccdb3b7890007a1688486adcc8494329b920c6d4b18624fd759daed1dd5  new
+2014-08-25 03:19:07 askfor block 824b1ccdb3b7890007a1688486adcc8494329b920c6d4b18624fd759daed1dd5   0 (00:00:00)
+2014-08-25 03:19:07 sending getdata: block 824b1ccdb3b7890007a1688486adcc8494329b920c6d4b18624fd759daed1dd5
+2014-08-25 03:19:07 sending: getdata (37 bytes)
+2014-08-25 03:19:07 received: block (188 bytes)
+2014-08-25 03:19:07 received block 824b1ccdb3b7890007a1688486adcc8494329b920c6d4b18624fd759daed1dd5
+2014-08-25 03:19:07 GetBlockvalue of Block 19: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:19:07 Committing 1 changed transactions to coin database...
+2014-08-25 03:19:07 SetBestChain: new best=824b1ccdb3b7890007a1688486adcc8494329b920c6d4b18624fd759daed1dd5  height=19  log2_work=19.874984  tx=20  date=2014-08-25 03:19:07 progress=1.000000
+2014-08-25 03:19:10 received: inv (37 bytes)
+2014-08-25 03:19:10   got inventory: block ab254e4a316bbe91b9405202d1ab18988358d5a7f64ab3041087d54bbf91e67b  new
+2014-08-25 03:19:10 askfor block ab254e4a316bbe91b9405202d1ab18988358d5a7f64ab3041087d54bbf91e67b   0 (00:00:00)
+2014-08-25 03:19:10 sending getdata: block ab254e4a316bbe91b9405202d1ab18988358d5a7f64ab3041087d54bbf91e67b
+2014-08-25 03:19:10 sending: getdata (37 bytes)
+2014-08-25 03:19:10 received: block (188 bytes)
+2014-08-25 03:19:10 received block ab254e4a316bbe91b9405202d1ab18988358d5a7f64ab3041087d54bbf91e67b
+2014-08-25 03:19:10 GetBlockvalue of Block 20: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:19:10 Committing 1 changed transactions to coin database...
+2014-08-25 03:19:10 SetBestChain: new best=ab254e4a316bbe91b9405202d1ab18988358d5a7f64ab3041087d54bbf91e67b  height=20  log2_work=19.918687  tx=21  date=2014-08-25 03:19:10 progress=1.000000
+2014-08-25 03:19:17 received: inv (37 bytes)
+2014-08-25 03:19:17   got inventory: block 436bd80ba29c927068cb9a0c884a3e37fa4a184e259ae76cab11e59cbb8cd354  new
+2014-08-25 03:19:17 askfor block 436bd80ba29c927068cb9a0c884a3e37fa4a184e259ae76cab11e59cbb8cd354   0 (00:00:00)
+2014-08-25 03:19:17 sending getdata: block 436bd80ba29c927068cb9a0c884a3e37fa4a184e259ae76cab11e59cbb8cd354
+2014-08-25 03:19:17 sending: getdata (37 bytes)
+2014-08-25 03:19:17 received: block (188 bytes)
+2014-08-25 03:19:17 received block 436bd80ba29c927068cb9a0c884a3e37fa4a184e259ae76cab11e59cbb8cd354
+2014-08-25 03:19:17 GetBlockvalue of Block 21: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:19:17 Committing 1 changed transactions to coin database...
+2014-08-25 03:19:17 SetBestChain: new best=436bd80ba29c927068cb9a0c884a3e37fa4a184e259ae76cab11e59cbb8cd354  height=21  log2_work=19.964493  tx=22  date=2014-08-25 03:19:16 progress=0.999836
+2014-08-25 03:19:21 received: inv (37 bytes)
+2014-08-25 03:19:21   got inventory: block ec49980fcd9b64fa3d21e334fddf80b0a74349118cb83453d57a2a635a1d84d0  new
+2014-08-25 03:19:21 askfor block ec49980fcd9b64fa3d21e334fddf80b0a74349118cb83453d57a2a635a1d84d0   0 (00:00:00)
+2014-08-25 03:19:21 sending getdata: block ec49980fcd9b64fa3d21e334fddf80b0a74349118cb83453d57a2a635a1d84d0
+2014-08-25 03:19:21 sending: getdata (37 bytes)
+2014-08-25 03:19:21 received: block (188 bytes)
+2014-08-25 03:19:21 received block ec49980fcd9b64fa3d21e334fddf80b0a74349118cb83453d57a2a635a1d84d0
+2014-08-25 03:19:21 GetBlockvalue of Block 22: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:19:21 Committing 1 changed transactions to coin database...
+2014-08-25 03:19:21 SetBestChain: new best=ec49980fcd9b64fa3d21e334fddf80b0a74349118cb83453d57a2a635a1d84d0  height=22  log2_work=20.011521  tx=23  date=2014-08-25 03:19:21 progress=1.000000
+2014-08-25 03:19:22 received: inv (37 bytes)
+2014-08-25 03:19:22   got inventory: block 32e19611656e84a3864f6efa4ffe683189098b724f2afd832e8a2fe4173787a2  new
+2014-08-25 03:19:22 askfor block 32e19611656e84a3864f6efa4ffe683189098b724f2afd832e8a2fe4173787a2   0 (00:00:00)
+2014-08-25 03:19:22 sending getdata: block 32e19611656e84a3864f6efa4ffe683189098b724f2afd832e8a2fe4173787a2
+2014-08-25 03:19:22 sending: getdata (37 bytes)
+2014-08-25 03:19:22 received: block (188 bytes)
+2014-08-25 03:19:22 received block 32e19611656e84a3864f6efa4ffe683189098b724f2afd832e8a2fe4173787a2
+2014-08-25 03:19:22 GetBlockvalue of Block 23: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:19:22 Committing 1 changed transactions to coin database...
+2014-08-25 03:19:22 SetBestChain: new best=32e19611656e84a3864f6efa4ffe683189098b724f2afd832e8a2fe4173787a2  height=23  log2_work=20.059851  tx=24  date=2014-08-25 03:19:22 progress=1.000000
+2014-08-25 03:19:27 received: inv (37 bytes)
+2014-08-25 03:19:27   got inventory: block b1a96aab778075d6d36c4583cc51a4d3ef6351f56ab1e346005ff4523fc7158d  new
+2014-08-25 03:19:27 askfor block b1a96aab778075d6d36c4583cc51a4d3ef6351f56ab1e346005ff4523fc7158d   0 (00:00:00)
+2014-08-25 03:19:27 sending getdata: block b1a96aab778075d6d36c4583cc51a4d3ef6351f56ab1e346005ff4523fc7158d
+2014-08-25 03:19:27 sending: getdata (37 bytes)
+2014-08-25 03:19:27 received: block (188 bytes)
+2014-08-25 03:19:27 received block b1a96aab778075d6d36c4583cc51a4d3ef6351f56ab1e346005ff4523fc7158d
+2014-08-25 03:19:27 GetBlockvalue of Block 24: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:19:27 Committing 1 changed transactions to coin database...
+2014-08-25 03:19:27 SetBestChain: new best=b1a96aab778075d6d36c4583cc51a4d3ef6351f56ab1e346005ff4523fc7158d  height=24  log2_work=20.110296  tx=25  date=2014-08-25 03:19:26 progress=0.999857
+2014-08-25 03:19:31 received: inv (37 bytes)
+2014-08-25 03:19:31   got inventory: block f388d30b2c4c743bdb74e1fdb19177fc36b26ad03bbb1556b8a46484d0b5d853  new
+2014-08-25 03:19:31 askfor block f388d30b2c4c743bdb74e1fdb19177fc36b26ad03bbb1556b8a46484d0b5d853   0 (00:00:00)
+2014-08-25 03:19:31 sending getdata: block f388d30b2c4c743bdb74e1fdb19177fc36b26ad03bbb1556b8a46484d0b5d853
+2014-08-25 03:19:31 sending: getdata (37 bytes)
+2014-08-25 03:19:31 received: block (188 bytes)
+2014-08-25 03:19:31 received block f388d30b2c4c743bdb74e1fdb19177fc36b26ad03bbb1556b8a46484d0b5d853
+2014-08-25 03:19:31 GetBlockvalue of Block 25: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:19:31 Committing 1 changed transactions to coin database...
+2014-08-25 03:19:31 SetBestChain: new best=f388d30b2c4c743bdb74e1fdb19177fc36b26ad03bbb1556b8a46484d0b5d853  height=25  log2_work=20.161951  tx=26  date=2014-08-25 03:19:31 progress=1.000000
+2014-08-25 03:19:45 received: inv (37 bytes)
+2014-08-25 03:19:45   got inventory: block 01aa957d7b9973c695dc1dcce06d75cdf457931a25cf3384226700605594d389  new
+2014-08-25 03:19:45 askfor block 01aa957d7b9973c695dc1dcce06d75cdf457931a25cf3384226700605594d389   0 (00:00:00)
+2014-08-25 03:19:45 sending getdata: block 01aa957d7b9973c695dc1dcce06d75cdf457931a25cf3384226700605594d389
+2014-08-25 03:19:45 sending: getdata (37 bytes)
+2014-08-25 03:19:45 received: block (188 bytes)
+2014-08-25 03:19:45 received block 01aa957d7b9973c695dc1dcce06d75cdf457931a25cf3384226700605594d389
+2014-08-25 03:19:45 GetBlockvalue of Block 26: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:19:45 Committing 1 changed transactions to coin database...
+2014-08-25 03:19:45 SetBestChain: new best=01aa957d7b9973c695dc1dcce06d75cdf457931a25cf3384226700605594d389  height=26  log2_work=20.214416  tx=27  date=2014-08-25 03:19:44 progress=0.999867
+2014-08-25 03:19:46 received: inv (37 bytes)
+2014-08-25 03:19:46   got inventory: block a02b1f89b02710e6a8a026b820db5743b521e7f3fb723c7f9394b5513eadad94  new
+2014-08-25 03:19:46 askfor block a02b1f89b02710e6a8a026b820db5743b521e7f3fb723c7f9394b5513eadad94   0 (00:00:00)
+2014-08-25 03:19:46 sending getdata: block a02b1f89b02710e6a8a026b820db5743b521e7f3fb723c7f9394b5513eadad94
+2014-08-25 03:19:46 sending: getdata (37 bytes)
+2014-08-25 03:19:46 received: block (188 bytes)
+2014-08-25 03:19:46 received block a02b1f89b02710e6a8a026b820db5743b521e7f3fb723c7f9394b5513eadad94
+2014-08-25 03:19:46 GetBlockvalue of Block 27: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:19:46 Committing 1 changed transactions to coin database...
+2014-08-25 03:19:46 SetBestChain: new best=a02b1f89b02710e6a8a026b820db5743b521e7f3fb723c7f9394b5513eadad94  height=27  log2_work=20.26568  tx=28  date=2014-08-25 03:19:46 progress=1.000000
+2014-08-25 03:20:10 received: inv (37 bytes)
+2014-08-25 03:20:10   got inventory: block a92a075b9e593c3df5305c6dc4c43df5725eff147a9b55702b732da1c21327c8  new
+2014-08-25 03:20:10 askfor block a92a075b9e593c3df5305c6dc4c43df5725eff147a9b55702b732da1c21327c8   0 (00:00:00)
+2014-08-25 03:20:10 sending getdata: block a92a075b9e593c3df5305c6dc4c43df5725eff147a9b55702b732da1c21327c8
+2014-08-25 03:20:10 sending: getdata (37 bytes)
+2014-08-25 03:20:10 received: block (188 bytes)
+2014-08-25 03:20:10 received block a92a075b9e593c3df5305c6dc4c43df5725eff147a9b55702b732da1c21327c8
+2014-08-25 03:20:10 GetBlockvalue of Block 28: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:20:10 Committing 1 changed transactions to coin database...
+2014-08-25 03:20:10 SetBestChain: new best=a92a075b9e593c3df5305c6dc4c43df5725eff147a9b55702b732da1c21327c8  height=28  log2_work=20.540449  tx=29  date=2014-08-25 03:20:10 progress=1.000000
+2014-08-25 03:20:22 ThreadRPCServer method=stop
+2014-08-25 03:20:22 socket closed
+2014-08-25 03:20:22 disconnecting node 127.0.0.1:56013
+2014-08-25 03:20:22 Shutdown : In progress...
+2014-08-25 03:20:22 opencon thread interrupt
+2014-08-25 03:20:22 dumpaddr thread stop
+2014-08-25 03:20:22 msghand thread interrupt
+2014-08-25 03:20:22 addcon thread interrupt
+2014-08-25 03:20:22 Flush(false)
+2014-08-25 03:20:22 wallet.dat refcount=0
+2014-08-25 03:20:22 wallet.dat checkpoint
+2014-08-25 03:20:22 wallet.dat detach
+2014-08-25 03:20:22 wallet.dat closed
+2014-08-25 03:20:22 DBFlush(false) ended              14ms
+2014-08-25 03:20:22 StopNode()
+2014-08-25 03:20:22 UPNP_DeletePortMapping() returned : 0
+2014-08-25 03:20:22 upnp thread interrupt
+2014-08-25 03:20:22 net thread interrupt
+2014-08-25 03:20:22 Flushed 13 addresses to peers.dat  5ms
+2014-08-25 03:20:22 Committing 0 changed transactions to coin database...
+2014-08-25 03:20:22 Flush(true)
+2014-08-25 03:20:22 wallet.dat refcount=0
+2014-08-25 03:20:22 wallet.dat checkpoint
+2014-08-25 03:20:22 wallet.dat detach
+2014-08-25 03:20:22 wallet.dat closed
+2014-08-25 03:20:22 DBFlush(true) ended              12ms
+2014-08-25 03:20:22 Shutdown : done
+2014-08-25 03:22:42 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-08-25 03:22:42 Syscoin version v0.8.6.2-unk-beta (2014-02-18 16:44:30 -0800)
+2014-08-25 03:22:42 Using OpenSSL version OpenSSL 0.9.8y 5 Feb 2013
+2014-08-25 03:22:42 Default data directory /Users/sschepis/Library/Application Support/Syscoin
+2014-08-25 03:22:42 Using data directory /Users/sschepis/syscoin-nodefarm/2/cakenet
+2014-08-25 03:22:42 Using at most 125 connections (275 file descriptors available)
+2014-08-25 03:22:42 Using 8 threads for script verification
+2014-08-25 03:22:42 init message: Verifying wallet...
+2014-08-25 03:22:42 dbenv.open LogDir=/Users/sschepis/syscoin-nodefarm/2/cakenet/database ErrorFile=/Users/sschepis/syscoin-nodefarm/2/cakenet/db.log
+2014-08-25 03:22:42 Bound to [::]:28379
+2014-08-25 03:22:42 Bound to 0.0.0.0:28379
+2014-08-25 03:22:42 init message: Loading block index...
+2014-08-25 03:22:42 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/blocks/index
+2014-08-25 03:22:42 Opened LevelDB successfully
+2014-08-25 03:22:42 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/chainstate
+2014-08-25 03:22:42 Opened LevelDB successfully
+2014-08-25 03:22:42 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/aliases
+2014-08-25 03:22:42 Opened LevelDB successfully
+2014-08-25 03:22:42 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/offers
+2014-08-25 03:22:42 Opened LevelDB successfully
+2014-08-25 03:22:42 Opening LevelDB in /Users/sschepis/syscoin-nodefarm/2/cakenet/certificates
+2014-08-25 03:22:42 Opened LevelDB successfully
+2014-08-25 03:22:42 LoadBlockIndexDB(): last block file = 0
+2014-08-25 03:22:42 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=29, size=48816, heights=0...28, time=2014-07-16...2014-08-25)
+2014-08-25 03:22:42 LoadBlockIndexDB(): transaction index enabled
+2014-08-25 03:22:42 LoadBlockIndexDB(): hashBestChain=a92a075b9e593c3df5305c6dc4c43df5725eff147a9b55702b732da1c21327c8  height=28 date=2014-08-25 03:20:10
+2014-08-25 03:22:42 init message: Verifying blocks...
+2014-08-25 03:22:42 Verifying last 28 blocks at level 4
+2014-08-25 03:22:42 GetBlockvalue of Block 1: subsidy=36422285800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=36422285800000000. 
+2014-08-25 03:22:42 GetBlockvalue of Block 2: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:42 GetBlockvalue of Block 3: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:42 GetBlockvalue of Block 4: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:42 GetBlockvalue of Block 5: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:42 GetBlockvalue of Block 6: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:42 GetBlockvalue of Block 7: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:42 GetBlockvalue of Block 8: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:42 GetBlockvalue of Block 9: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:42 GetBlockvalue of Block 10: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:42 GetBlockvalue of Block 11: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:42 GetBlockvalue of Block 12: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:42 GetBlockvalue of Block 13: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:42 GetBlockvalue of Block 14: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 15: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 16: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 17: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 18: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 19: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 20: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 21: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 22: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 23: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 24: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 25: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 26: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 27: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 GetBlockvalue of Block 28: subsidy=12800000000, fees=0, aliasSubsidy=0, offerSubsidy=0, certSubidy=0, sum=12800000000. 
+2014-08-25 03:22:43 No coin database inconsistencies in last 28 blocks (28 transactions)
+2014-08-25 03:22:43  block index             190ms
+2014-08-25 03:22:43 init message: Loading wallet...
+2014-08-25 03:22:43 nFileVersion = 80602
+2014-08-25 03:22:43  wallet                  283ms
+2014-08-25 03:22:43 init message: Loading addresses...
+2014-08-25 03:22:43 Loaded 13 addresses from peers.dat  0ms
+2014-08-25 03:22:43 mapBlockIndex.size() = 29
+2014-08-25 03:22:43 nBestHeight = 28
+2014-08-25 03:22:43 setKeyPool.size() = 101
+2014-08-25 03:22:43 mapWallet.size() = 0
+2014-08-25 03:22:43 mapAddressBook.size() = 1
+2014-08-25 03:22:43 upnp thread start
+2014-08-25 03:22:43 dnsseed thread start
+2014-08-25 03:22:43 net thread start
+2014-08-25 03:22:43 addcon thread start
+2014-08-25 03:22:43 opencon thread start
+2014-08-25 03:22:43 msghand thread start
+2014-08-25 03:22:43 dumpaddr thread start
+2014-08-25 03:22:43 Loading addresses from DNS seeds (could take a while)
+2014-08-25 03:22:43 init message: Done loading
+2014-08-25 03:22:43 accepted connection 127.0.0.1:56758
+2014-08-25 03:22:43 14 addresses found from DNS seeds
+2014-08-25 03:22:43 dnsseed thread exit
+2014-08-25 03:22:43 received: version (102 bytes)
+2014-08-25 03:22:43 sending: version (102 bytes)
+2014-08-25 03:22:43 Added time data, samples 2, offset +0 (+0 minutes)
+2014-08-25 03:22:43 sending: verack (0 bytes)
+2014-08-25 03:22:43 receive version message: /Satoshi:0.8.6.2/: version 70004, blocks=28, us=0.0.0.0:0, them=0.0.0.0:0, peer=127.0.0.1:56758
+2014-08-25 03:22:43 received: verack (0 bytes)
+2014-08-25 03:22:43 sending: getblocks (549 bytes)
+2014-08-25 03:22:43 received: getaddr (0 bytes)
+2014-08-25 03:22:43 sending: addr (61 bytes)
+2014-08-25 03:22:43 received: getblocks (549 bytes)
+2014-08-25 03:22:43 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2014-08-25 03:22:44 GetMyExternalIP() received [70.176.244.123] 70.176.244.123:0
+2014-08-25 03:22:44 GetMyExternalIP() returned 70.176.244.123
+2014-08-25 03:22:44 AddLocal(70.176.244.123:28379,4)
+2014-08-25 03:22:44 sending: addr (31 bytes)
+2014-08-25 03:22:44 received: addr (31 bytes)
+2014-08-25 03:22:45 ThreadRPCServer method=getinfo
+2014-08-25 03:22:45 keypool reserve 2
+2014-08-25 03:22:45 keypool return 2
+2014-08-25 03:22:45 UPnP: ExternalIPAddress = 70.176.244.123
+2014-08-25 03:22:45 AddLocal(70.176.244.123:28379,3)
+2014-08-25 03:22:45 UPnP Port Mapping successful.
+2014-08-25 03:22:50 ThreadRPCServer method=stop
+2014-08-25 03:22:50 Shutdown : In progress...
+2014-08-25 03:22:50 dumpaddr thread stop
+2014-08-25 03:22:50 opencon thread interrupt
+2014-08-25 03:22:50 msghand thread interrupt
+2014-08-25 03:22:50 addcon thread interrupt
+2014-08-25 03:22:50 Flush(false)
+2014-08-25 03:22:50 wallet.dat refcount=0
+2014-08-25 03:22:50 wallet.dat checkpoint
+2014-08-25 03:22:50 wallet.dat detach
+2014-08-25 03:22:50 wallet.dat closed
+2014-08-25 03:22:50 DBFlush(false) ended              12ms
+2014-08-25 03:22:50 StopNode()
+2014-08-25 03:22:50 net thread interrupt
+2014-08-25 03:22:50 UPNP_DeletePortMapping() returned : 0
+2014-08-25 03:22:50 upnp thread interrupt
+2014-08-25 03:22:50 Flushed 13 addresses to peers.dat  9ms
+2014-08-25 03:22:50 Committing 28 changed transactions to coin database...
+2014-08-25 03:22:50 Flush(true)
+2014-08-25 03:22:50 wallet.dat refcount=0
+2014-08-25 03:22:50 wallet.dat checkpoint
+2014-08-25 03:22:50 wallet.dat detach
+2014-08-25 03:22:50 wallet.dat closed
+2014-08-25 03:22:50 DBFlush(true) ended              13ms
+2014-08-25 03:22:50 Shutdown : done
